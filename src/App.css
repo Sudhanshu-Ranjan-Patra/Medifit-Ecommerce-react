@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+.bg-primary {
+  background-color:#e1e1dd;
+}
+.bg-primary-light {
+  background-color:#f6f6f5f5;
+}
+
+.text-primary {
+  color: #503217;
+}
+.text-primary-light {
+  color: #715d4d;
+}
+
+.text-primary-light-thin {
+  color: #715d4dba;
+}
+
+.button-primary {
+  background-color: #503217;
+  color: #e1e1dd;
+}
+
+.brand-btn {
+  background-color: #d85b02;
+  color: #efefef;
+    font-size: 14px;
+  padding: 6px 16px;
+  border-radius: 15px;
+  font-weight: 200;
+}
+
+.rounded-25{
+  border-radius: 20%;
+}
