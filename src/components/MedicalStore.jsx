@@ -3,7 +3,7 @@ import React from "react";
 function MedicalStore() {
   return (
     <div>
-      <div className="Hero-content flex flex-col pb-16 md:flex-row justify-between items-center bg-primary p-8">
+      <div className="Hero-content relative flex flex-col pb-16 md:flex-row justify-between items-center bg-primary p-8">
         <div className=" hero-left ml-20 mr-20 mb-10 gap-y-5 justify-center md:mb-0 md:ml-50 md:mr-50 lg:ml-40">
           <h1 className="text-5xl font-medium mt-10 md:mt-0 text-primary">
             Your trusted care now and always
@@ -12,7 +12,7 @@ function MedicalStore() {
             For the best results, align your health needs with your medication
             plan.
           </p>
-          <button className=" flex gap-2 mt-6 px-6 py-2 md:mt-8 button-primary rounded-lg">
+          <button className=" flex gap-2 mt-6 px-6 py-2 md:mt-8 button-primary rounded-lg cursor-pointer">
             <img src="../images/MedicalStore/bag.png" alt="" />
             Shop Now
           </button>
@@ -20,6 +20,13 @@ function MedicalStore() {
         <div className="hero-right w-full  justify-center items-center ml-10 mr-10 md:mr-40 sm:mr-20 sm:ml-20">
           <img src="../images/MedicalStore/Img-1.png" alt="hero-img" />
         </div>
+      </div>
+      <div className="">
+        <img 
+          src="../images/Vector.png" 
+          alt="Card" 
+          className="absolute hidden sm:flex sm:bottom-45 left-5 w-1/6 sm:w-1/8 opacity-30"
+        />
       </div>
 
       {/* // Shop by category section */}
@@ -111,7 +118,7 @@ function MedicalStore() {
                 </h1>
                 <div className=" flex flex-row gap-2 items-center ">
                   <img src="../images/MedicalStore/Vector.png" alt="" />
-                  <p className="text-primary-light underline cursor-pointer hover:text-amber-200">
+                  <p className="text-primary-light-thin-hover underline cursor-pointer hover:text-amber-200">
                     {" "}
                     Shop now{" "}
                   </p>
@@ -135,7 +142,7 @@ function MedicalStore() {
                 </h1>
                 <div className=" flex flex-row gap-2 items-center ">
                   <img src="../images/MedicalStore/eye.png" alt="" />
-                  <p className="text-primary-light underline cursor-pointer hover:text-amber-200">
+                  <p className="text-primary-light-thin-hover underline cursor-pointer hover:text-amber-200">
                     {" "}
                     Discover now{" "}
                   </p>
@@ -159,7 +166,7 @@ function MedicalStore() {
                 </h1>
                 <div className=" flex flex-row gap-2 items-center ">
                   <img src="../images/MedicalStore/eye.png" alt="" />
-                  <p className="text-primary-light underline cursor-pointer hover:text-amber-200">
+                  <p className="text-primary-light-thin-hover underline cursor-pointer hover:text-amber-200">
                     {" "}
                     Discover now{" "}
                   </p>
@@ -500,7 +507,7 @@ function MedicalStore() {
                   placeholder="Enter email"
                   className="px-5 pr-20 py-2 text-primary text-lg border bg-primary-light border-amber-900 rounded-lg focus:outline-none "
                 />
-                <button className=" flex flex-row button-primary text-lg text-white border-amber-900  rounded-lg px-8 py-2">
+                <button className=" flex flex-row button-primary text-lg text-white border-amber-900 rounded-lg px-8 py-2 cursor-pointer">
                   <p>Sign up</p>
                 </button>
               </div>
@@ -584,7 +591,6 @@ function MedicalStore() {
           <img className="rounded-b-lg rounded-t-full  h-1/2" src="../images/MedicalStore/follow-us-img-4.png" alt="" />
         </div>
       </div>
-
     </div>
   );
 }

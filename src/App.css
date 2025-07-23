@@ -18,6 +18,16 @@
   color: #715d4dba;
 }
 
+.text-primary-light-thin-hover {
+  color: #715d4dba;
+  cursor:pointer;
+  transition: all 0.3s ease;
+}
+
+.text-primary-light-thin-hover:hover {
+  color: #503217; /* same as .text-primary */
+}
+
 .button-primary {
   background-color: #503217;
   color: #e1e1dd;

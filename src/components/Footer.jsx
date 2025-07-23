@@ -7,26 +7,26 @@ function Footer() {
         <div className="footer-left hidden sm:flex flex-row justify-center gap-10 ">
           <div className="pages flex flex-col gap-5">
             <h2 className="text-primary text-2xl">Pages</h2>
-            <ul className="text-primary-light-thin text-lg flex flex-col gap-3 ">
-              <li>Home</li>
-              <li>Shop</li>
-              <li>About</li>
-              <li>Contact</li>
-              <li>Blog</li>
-              <li>Privacy policy</li>
-              <li>FAQs</li>
+            <ul className=" text-lg flex flex-col gap-3 ">
+              <li className="text-primary-light-thin-hover">Home</li>
+              <li className="text-primary-light-thin-hover">Shop</li>
+              <li className="text-primary-light-thin-hover">About</li>
+              <li className="text-primary-light-thin-hover">Contact</li>
+              <li className="text-primary-light-thin-hover">Blog</li>
+              <li className="text-primary-light-thin-hover">Privacy policy</li>
+              <li className="text-primary-light-thin-hover">FAQs</li>
             </ul>
           </div>
           <div className="utility flex flex-col gap-5">
-            <h2 className="text-primary text-2xl">Utility</h2>
-            <ul className="text-primary-light-thin text-lg flex flex-col gap-3 ">
-              <li>Style guide</li>
-              <li>Instruction</li>
-              <li>Changelog</li>
-              <li>Link in bio</li>
-              <li>Licenses</li>
-              <li>Error 404</li>
-              <li>Password protected</li>
+            <h2 className="text-primary text-2xl ">Utility</h2>
+            <ul className="text-lg flex flex-col gap-3 ">
+              <li className="text-primary-light-thin-hover">Style guide</li>
+              <li className="text-primary-light-thin-hover">Instruction</li>
+              <li className="text-primary-light-thin-hover">Changelog</li>
+              <li className="text-primary-light-thin-hover">Link in bio</li>
+              <li className="text-primary-light-thin-hover">Licenses</li>
+              <li className="text-primary-light-thin-hover">Error 404</li>
+              <li className="text-primary-light-thin-hover">Password protected</li>
             </ul>
           </div>
         </div>
@@ -34,7 +34,7 @@ function Footer() {
         <div className="footer-middle flex flex-col gap-5 justify-center items-center">
           <div className="flex flex-row gap-2 ">
             <img
-              className=" "
+              className="w-full "
               src="../images/medifit-logo.png"
               alt="Medifit Logo"
             />
@@ -45,16 +45,16 @@ function Footer() {
             healthcare needs.
           </div>
           <div className="flex flex-row gap-5 ">
-            <span className="flex button-primary rounded-lg justify-center items-center text-center w-8 h-8">
+            <span className="flex button-primary rounded-lg justify-center items-center text-center w-8 h-8 transition-all duration-300 hover:scale-110 cursor-pointer">
               <img src="../images/MedicalStore/facebook.png" alt="" />
             </span>
-            <span className="flex button-primary rounded-lg justify-center items-center text-center w-8 h-8">
+            <span className="flex button-primary rounded-lg justify-center items-center text-center w-8 h-8 transition-all duration-300 hover:scale-110 cursor-pointer">
               <img src="../images/MedicalStore/instagram.png" alt="" />
             </span>
-            <span className="flex button-primary rounded-lg justify-center items-center text-center w-8 h-8">
+            <span className="flex button-primary rounded-lg justify-center items-center text-center w-8 h-8 transition-all duration-300 hover:scale-110 cursor-pointer">
               <img src="../images/MedicalStore/twitter.png" alt="" />
             </span>
-            <span className="flex button-primary rounded-lg justify-center items-center text-center w-8 h-8">
+            <span className="flex button-primary rounded-lg justify-center items-center text-center w-8 h-8 transition-all duration-300 hover:scale-110 cursor-pointer">
               <img src="../images/MedicalStore/youtube.png" alt="" />
             </span>
           </div>

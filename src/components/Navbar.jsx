@@ -3,7 +3,7 @@ import React from 'react'
 function Navbar() {
   return (
     <>
-    <div className='flex justify-between items-center  bg-primary-light p-4 shadow-md '>
+    <div className=' flex justify-between items-center  bg-primary-light p-4 shadow-md '>
         <div className="logo w-30 ml-10 sm:ml-20 md:ml-40 ">
             <img src="../images/logo.png" alt="Medifit Logo" className=" " />
         </div>
@@ -23,20 +23,7 @@ function Navbar() {
             <img src="../images/cart.png" alt="chat" /></span> 
         </div>
     </div>
-    <div className='mobile-nav hidden'>
-      <div className=' bg-primary-light text-primary w-40 h-6 items-center pl-2 md:hidden lg:hidden '>
-      ➤
-      </div>
-      <div className="nav-ops-hidden  flex flex-col gap-1 text-primary  bg-primary-light w-40 h-screen items-start justify-start  md:hidden lg:hidden "> 
-            <span className=' cursor-pointer ml-5 font-medium   '>Home</span>
-            <span className=' cursor-pointer ml-5 font-medium   '>Shop</span>
-            <span className=' cursor-pointer ml-5 font-medium   '>Pages
-              <span className='justify-start items-start'> ⌵</span>
-            </span>
-            <span className=' cursor-pointer ml-5 font-medium   '>About</span>
-            <span className=' cursor-pointer ml-5 font-medium   '>Contact</span>
-      </div>
-    </div>
+    
     
     </>
   )
