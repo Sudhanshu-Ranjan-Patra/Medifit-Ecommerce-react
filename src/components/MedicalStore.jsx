@@ -22,9 +22,9 @@ function MedicalStore() {
         </div>
       </div>
       <div className="">
-        <img 
-          src="../images/Vector.png" 
-          alt="Card" 
+        <img
+          src="../images/Vector.png"
+          alt="Card"
           className="absolute hidden sm:flex sm:bottom-45 left-5 w-1/6 sm:w-1/8 opacity-30"
         />
       </div>
@@ -501,19 +501,18 @@ function MedicalStore() {
                 Sign Up for an Instant 15% Discount
               </h1>
             </div>
-              <div className="flex flex-row items-center gap-3 sm:gap-4 pb-10  rounded-lg max-w-md ">
-                <input
-                  type="text"
-                  placeholder="Enter email"
-                  className="px-5 pr-20 py-2 text-primary text-lg border bg-primary-light border-amber-900 rounded-lg focus:outline-none "
-                />
-                <button className=" flex flex-row button-primary text-lg text-white border-amber-900 rounded-lg px-8 py-2 cursor-pointer">
-                  <p>Sign up</p>
-                </button>
-              </div>
+            <div className="flex flex-row items-center gap-3 sm:gap-4 pb-10  rounded-lg max-w-md ">
+              <input
+                type="text"
+                placeholder="Enter email"
+                className="px-5 pr-20 py-2 text-primary text-lg border bg-primary-light border-amber-900 rounded-lg focus:outline-none "
+              />
+              <button className=" flex flex-row button-primary text-lg text-white border-amber-900 rounded-lg px-8 py-2 cursor-pointer">
+                <p>Sign up</p>
+              </button>
             </div>
+          </div>
         </div>
-      
       </div>
 
       <div className="Our-happy-clients bg-primary-light flex flex-col justify-center items-center pb-10 ">
@@ -525,12 +524,20 @@ function MedicalStore() {
 
         <div className=" flex flex-col md:flex-row bg-white rounded-2xl m-5 md:m-30 md:mb-10 md:mt-10 p-10 pt-0 sm:pb-15 sm:pr-20 sm:pt-10">
           <div className="sm:pl-5 sm:mb-10">
-            <img className=" sm:w-2xs " src="../images/MedicalStore/ohc-colon-1.png" alt="" />
+            <img
+              className=" sm:w-2xs "
+              src="../images/MedicalStore/ohc-colon-1.png"
+              alt=""
+            />
           </div>
           <div className=" md:pt-15">
-            <p className="text-primary-light-thin text-lg text-center items-center justify-center">I’m so impressed with this online medical store. The product selection is extensive and the prices are great. 
-              I found everything i needed in one place. The ordering process was easy, delivery was prompt, 
-              and the items arrived in perfect condition. Plus, the customer service team was incredibly helpful.</p>
+            <p className="text-primary-light-thin text-lg text-center items-center justify-center">
+              I’m so impressed with this online medical store. The product
+              selection is extensive and the prices are great. I found
+              everything i needed in one place. The ordering process was easy,
+              delivery was prompt, and the items arrived in perfect condition.
+              Plus, the customer service team was incredibly helpful.
+            </p>
           </div>
         </div>
 
@@ -585,10 +592,26 @@ function MedicalStore() {
         </div>
 
         <div className="follow-us-images flex flex-row gap-3 sm:gap-5 w-1/5 sm:w-full justify-center">
-          <img className="rounded-lg" src="../images/MedicalStore/follow-us-img-1.png" alt="" />
-          <img className="rounded-t-4xl rounded-b-lg h-1/2" src="../images/MedicalStore/follow-us-img-2.png" alt="" />
-          <img className="rounded-full h-1/2" src="../images/MedicalStore/follow-us-img-3.png" alt="" />
-          <img className="rounded-b-lg rounded-t-full  h-1/2" src="../images/MedicalStore/follow-us-img-4.png" alt="" />
+          <img
+            className="rounded-lg"
+            src="../images/MedicalStore/follow-us-img-1.png"
+            alt=""
+          />
+          <img
+            className="rounded-t-4xl rounded-b-lg h-1/2"
+            src="../images/MedicalStore/follow-us-img-2.png"
+            alt=""
+          />
+          <img
+            className="rounded-full h-1/2"
+            src="../images/MedicalStore/follow-us-img-3.png"
+            alt=""
+          />
+          <img
+            className="rounded-b-lg rounded-t-full  h-1/2"
+            src="../images/MedicalStore/follow-us-img-4.png"
+            alt=""
+          />
         </div>
       </div>
     </div>

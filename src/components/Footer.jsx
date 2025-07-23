@@ -18,7 +18,7 @@ function Footer() {
             </ul>
           </div>
           <div className="utility flex flex-col gap-5">
-            <h2 className="text-primary text-2xl ">Utility</h2>
+            <h2 className="text-primary text-2xl">Utility</h2>
             <ul className="text-lg flex flex-col gap-3 ">
               <li className="text-primary-light-thin-hover">Style guide</li>
               <li className="text-primary-light-thin-hover">Instruction</li>
@@ -26,7 +26,9 @@ function Footer() {
               <li className="text-primary-light-thin-hover">Link in bio</li>
               <li className="text-primary-light-thin-hover">Licenses</li>
               <li className="text-primary-light-thin-hover">Error 404</li>
-              <li className="text-primary-light-thin-hover">Password protected</li>
+              <li className="text-primary-light-thin-hover">
+                Password protected
+              </li>
             </ul>
           </div>
         </div>
@@ -64,8 +66,14 @@ function Footer() {
           <div className="address flex flex-col gap-5">
             <h2 className="text-primary text-2xl">Address</h2>
             <div className="flex flex-row gap-2">
-              <img src="../images/location-pin.png" alt="" className="w-fit mb-7 mt-1.5" />
-              <p className="text-primary-light-thin text-start w-60">1640 Parker Rd. Allentown, New Mexico 31134</p>
+              <img
+                src="../images/location-pin.png"
+                alt=""
+                className="w-fit mb-7 mt-1.5"
+              />
+              <p className="text-primary-light-thin text-start w-60">
+                1640 Parker Rd. Allentown, New Mexico 31134
+              </p>
             </div>
           </div>
 
@@ -74,11 +82,19 @@ function Footer() {
             <div className="flex flex-col gap-2">
               <div className="flex flex-row gap-2">
                 <img src="../images/email.png" alt="" className="mb-2 mt-1.5" />
-                <p className="text-primary-light-thin text-start">SRP@bhai.com</p>
+                <p className="text-primary-light-thin text-start">
+                  SRP@bhai.com
+                </p>
               </div>
               <div className="flex flex-row gap-2">
-                <img src="../images/phone-no.png" alt="" className="mb-2 mt-1.5" />
-                <p className="text-primary-light-thin text-start w-40">(209) 555-0404</p>
+                <img
+                  src="../images/phone-no.png"
+                  alt=""
+                  className="mb-2 mt-1.5"
+                />
+                <p className="text-primary-light-thin text-start w-40">
+                  (209) 555-0404
+                </p>
               </div>
             </div>
           </div>
