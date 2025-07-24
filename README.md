@@ -1,12 +1,46 @@
-# React + Vite
+# 🩺 Medifit - Ecommerce Application (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Medifit**, a modern and responsive medical e-commerce application built using **React** and **Tailwind CSS**. This project simulates an online medical store where users can browse, search, and explore healthcare products.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🧾 **Home Page** with clean UI and medical branding
+- 🏥 **Medical Store** section with product listings
+- 🔍 **Search Functionality** to filter items by name
+- 📱 **Responsive Design** (mobile-friendly)
+- 🔄 Reusable Components (Navbar, Footer, Cards)
+- ⚡ Fast performance with React and Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Description |
+|------------|-------------|
+| React      | JavaScript library for building UI |
+| Tailwind CSS | Utility-first CSS framework |
+| JavaScript | Core programming logic |
+| HTML/CSS   | Structure and styling |
+| GitHub     | Version control and hosting |
+
+---
+
+## 📸 Screenshots
+
+| Homepage | Product Section |
+|----------|------------------|
+| ![Homepage](./screenshots/home.png) | ![Medical Store](./screenshots/store.png) |
+
+> 📷 *Add your own screenshots in a `screenshots/` folder*
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/Sudhanshu-Ranjan-Patra/Medifit-Ecommerce-react.git
+cd Medifit-Ecommerce-react
+npm install
+npm start
