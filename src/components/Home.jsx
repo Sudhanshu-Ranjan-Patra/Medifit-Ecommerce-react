@@ -245,7 +245,7 @@ function Home() {
               <img className="w-1/3" src="../images/Home/heart.png" alt="" />
               <p className="text-primary font-medium">Health care</p>
             </div>
-            <div >
+            <div>
               <img className="w-2/3" src="../images/Home/sbc-p-1.png" alt="" />
             </div>
           </div>
@@ -255,17 +255,21 @@ function Home() {
               <img className="w-1/3" src="../images/Home/leaf.png" alt="" />
               <p className="text-primary font-medium">Beauty care</p>
             </div>
-            <div >
+            <div>
               <img className="w-2/3" src="../images/Home/sbc-p-2.png" alt="" />
             </div>
           </div>
 
           <div className="flex flex-row justify-between md:gap-10 w-50 md:w-60 md:h-35 md:justify-start items-center pl-2 md:pl-5 pt-2 pb-1 md:pb-0 md:pt-0 bg-white rounded-2xl border border-transparent hover:border-[#d2cbc4] transition-all duration-300">
             <div className="flex flex-col justify-center items-center ">
-              <img className="w-1/2" src="../images/Home/heartbeat.png" alt="" />
+              <img
+                className="w-1/2"
+                src="../images/Home/heartbeat.png"
+                alt=""
+              />
               <p className="text-primary font-medium">Fitness</p>
             </div>
-            <div >
+            <div>
               <img className="w-2/3" src="../images/Home/sbc-p-3.png" alt="" />
             </div>
           </div>
@@ -275,7 +279,7 @@ function Home() {
               <img className="w-1/2" src="../images/Home/capsule.png" alt="" />
               <p className="text-primary font-medium">Medicine</p>
             </div>
-            <div >
+            <div>
               <img className="w-2/3" src="../images/Home/sbc-p-4.png" alt="" />
             </div>
           </div>
