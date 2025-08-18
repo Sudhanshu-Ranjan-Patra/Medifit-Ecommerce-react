@@ -31,7 +31,7 @@ function Home() {
           <img src="../images/Home/Hero-img.png" alt="hero-img" />
         </div>
       </div>
-      <div className="">
+      <div className="bg-emoji">
         <img
           src="../images/Home/hero-emoji.png"
           alt="Card"
@@ -39,7 +39,7 @@ function Home() {
         />
       </div>
 
-      <div className="grid grid-cols-3 sm:grid-cols-6 pl-10 gap-4 p-3 sm:p-4 bg-primary-dark">
+      <div className="Companys grid grid-cols-3 sm:grid-cols-6 pl-10 gap-4 p-3 sm:p-4 bg-primary-dark">
         <img className="w-1/2" src="../images/Home/Company-logo-1.png" alt="" />
         <img className="w-1/2" src="../images/Home/Company-logo-2.png" alt="" />
         <img className="w-1/2" src="../images/Home/Company-logo-3.png" alt="" />
@@ -48,7 +48,7 @@ function Home() {
         <img className="w-1/2" src="../images/Home/Company-logo-6.png" alt="" />
       </div>
 
-      <div className="our-story-content relative flex flex-col justify-center pb-16 md:flex-row bg-primary-light">
+      <div className="Our-story-content relative flex flex-col justify-center pb-16 md:flex-row bg-primary-light">
         <div className=" our-story-left mb-10 sm:mt-20 justify-center items-start  md:mb-0 md:ml-40 md:mr-10 lg:ml-40 p-5">
           <h1 className="text-4xl sm:w-xl font-medium mt-5 md:mt-0 text-primary">
             Bringing trusted health solutions to your doorstep focused on
@@ -69,7 +69,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="card-section grid grid-cols-2 sm:grid-cols-4 gap-5 bg-primary-light items-center md:px-30 pb-10">
+      <div className="Our-story-card-section grid grid-cols-2 sm:grid-cols-4 gap-5 bg-primary-light items-center md:px-30 pb-10">
         <div className=" flex flex-row  justify-center items-center ">
           <div className="flex flex-col justify-center items-center ">
             <img
@@ -112,7 +112,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-y-5 md:gap-y-0 bg-primary-light pb-10 md:pb-20 md:pl-30 md:pr-30 lg:pl-40 p-5">
+      <div className="Products grid grid-cols-2 md:grid-cols-3 gap-y-5 md:gap-y-0 bg-primary-light pb-10 md:pb-20 md:pl-30 md:pr-30 lg:pl-40 p-5">
         <div className=" sm:mt-20 justify-center items-start  ">
           <h1 className="text-4xl w-50 font-medium mt-5 md:mt-0 text-primary">
             Discover our collection
@@ -232,9 +232,9 @@ function Home() {
         </div>
       </div>
 
-      <div className="shop-by-category bg-primary flex flex-col justify-center items-center py-5 ">
+      <div className="Shop-by-category bg-primary flex flex-col justify-center items-center py-5 pb-20">
         <div>
-          <h2 className="text-3xl font-medium text-primary text-center mt-10 mb-10">
+          <h2 className="text-3xl font-medium text-primary text-center mt-5 sm:mt-10 mb-10">
             Shop by category
           </h2>
         </div>
@@ -281,6 +281,117 @@ function Home() {
             </div>
             <div>
               <img className="w-2/3" src="../images/Home/sbc-p-4.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div className="flex mt-10 md:mx-40">
+          <div className="flex flex-row sm:justify-between gap-5 ml-5">
+            <div className=" sm:w-fit items-center relative">
+              <img
+                className=" w-fit sm:-sm md:w-lg"
+                src="../images/Home/sbc-1.png"
+                alt=""
+              />
+              <img
+                className="absolute left-30 top-42 w-1/2 sm:hidden md:flex md:left-105 md:w-1/2 "
+                src="../images/Home/sbc-2.png"
+                alt=""
+              />
+            </div>
+            <div className=" flex flex-col justify-center items-start md:w-1/3 mr-5 md:pr-30 ">
+              <h2 className="text-2xl sm:text-3xl font-medium text-primary  md:w-1/  mb-2">
+                Save up to 10% on select tablets limited time only!
+              </h2>
+              <p className="text-sm w-40 sm:60 md:w-80 text-primary-light-thin  ">
+                Don't miss out on our limited-time sale! 10% discount on a wide
+                range of essential health products.
+              </p>
+              <button className=" flex text-sm gap-1 mt-6 px-4 py-2 md:mt-8 button-primary rounded-lg cursor-pointer">
+                View sale products {">"}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className=" flex flex-col justify-center bg-primary-light pb-10 md:pb-20 md:pl-30 md:pr-30 lg:pl-40 p-5">
+        <div>
+          <h2 className="text-3xl font-medium text-primary text-center mt-5 sm:mt-10 mb-10">
+            Customers review
+          </h2>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 ">
+          <div className="flex flex-col justify-center items-start px-5 ">
+            <div className="flex flex-col justify-center items-start p-5 bg-white rounded-xl m-3">
+              <img
+                className=""
+                src="../images/Home/message-lines.png"
+                alt="customer-review"
+              />
+              <p className="text-sm text-primary-light-thin">
+                B12 Medicine keeps me energized and focused all day. A true
+                lifesaver for vitality and wellness!
+              </p>
+            </div>
+            <div className="flex flex-row gap-5 justify-center items-center pl-2 pt-3">
+              <img
+                src="../images/Home/CR-client-1.png"
+                alt="client-review-1"
+                className="w-1/4 sm:w-1/3"
+              />
+              <h3 className="text-sm font-medium text-start text-primary mt-2">
+                Olivia Garcia
+              </h3>
+            </div>
+          </div>
+
+          <div className="flex flex-col justify-center items-start px-5 ">
+            <div className="flex flex-col justify-center items-start p-5 bg-white rounded-xl m-3">
+              <img
+                className=""
+                src="../images/Home/message-lines.png"
+                alt="customer-review"
+              />
+              <p className="text-sm text-primary-light-thin">
+                I’ve regained my energy and feel amazing thanks to B12 Medicine.
+                Highly recommend for health and stamina!
+              </p>
+            </div>
+            <div className="flex flex-row gap-5 justify-center items-center pl-2 pt-3">
+              <img
+                src="../images/Home/CR-client-2.png"
+                alt="client-review-1"
+                className="w-1/4 sm:w-1/3"
+              />
+              <h3 className="text-sm font-medium text-start text-primary mt-2">
+                Sophia Brown
+              </h3>
+            </div>
+          </div>
+
+          <div className="flex flex-col justify-center items-start px-5">
+            <div className="flex flex-col justify-center items-start p-5 bg-white rounded-xl m-3">
+              <img
+                className=""
+                src="../images/Home/message-lines.png"
+                alt="customer-review"
+              />
+              <p className="text-sm text-primary-light-thin">
+                As a vegetarian, B12 Medicine keeps my energy up and my health
+                on track. Perfect for natural support!{" "}
+              </p>
+            </div>
+            <div className="flex flex-row gap-5 justify-center items-center pl-2 pt-3">
+              <img
+                src="../images/Home/CR-client-3.png"
+                alt="client-review-1"
+                className="w-1/4 sm:w-1/3"
+              />
+              <h3 className="text-sm font-medium text-start text-primary mt-2">
+                Ethan Harris
+              </h3>
             </div>
           </div>
         </div>
