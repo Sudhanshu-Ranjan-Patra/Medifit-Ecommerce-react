@@ -246,7 +246,11 @@ function Home() {
               <p className="text-primary font-medium">Health care</p>
             </div>
             <div>
-              <img className="w-2/3 hover:transform sm:hover:scale-115 transition-transform duration-300" src="../images/Home/sbc-p-1.png" alt="" />
+              <img
+                className="w-2/3 hover:transform sm:hover:scale-115 transition-transform duration-300"
+                src="../images/Home/sbc-p-1.png"
+                alt=""
+              />
             </div>
           </div>
 
@@ -256,7 +260,11 @@ function Home() {
               <p className="text-primary font-medium">Beauty care</p>
             </div>
             <div>
-              <img className="w-2/3 hover:transform sm:hover:scale-115 transition-transform duration-300" src="../images/Home/sbc-p-2.png" alt="" />
+              <img
+                className="w-2/3 hover:transform sm:hover:scale-115 transition-transform duration-300"
+                src="../images/Home/sbc-p-2.png"
+                alt=""
+              />
             </div>
           </div>
 
@@ -270,7 +278,11 @@ function Home() {
               <p className="text-primary font-medium">Fitness</p>
             </div>
             <div>
-              <img className="w-2/3 hover:transform sm:hover:scale-115 transition-transform duration-300" src="../images/Home/sbc-p-3.png" alt="" />
+              <img
+                className="w-2/3 hover:transform sm:hover:scale-115 transition-transform duration-300"
+                src="../images/Home/sbc-p-3.png"
+                alt=""
+              />
             </div>
           </div>
 
@@ -280,7 +292,11 @@ function Home() {
               <p className="text-primary font-medium">Medicine</p>
             </div>
             <div>
-              <img className="w-2/3 hover:transform sm:hover:scale-115 transition-transform duration-300" src="../images/Home/sbc-p-4.png" alt="" />
+              <img
+                className="w-2/3 hover:transform sm:hover:scale-115 transition-transform duration-300"
+                src="../images/Home/sbc-p-4.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -417,10 +433,15 @@ function Home() {
                     <img src="../images/Home/calendar-week.png" alt="" />
                     <p>July 25, 2025</p>
                   </span>
-                  <h4 className="text-primary text-lg w-50">Living well with chronic conditions</h4>
+                  <h4 className="text-primary text-lg w-50">
+                    Living well with chronic conditions
+                  </h4>
                 </div>
                 <div className="flex text-primary-light-hover gap-1 cursor-pointer">
-                  <button className="underline cursor-pointer">Read more </button><p>{">"}</p>
+                  <button className="underline cursor-pointer">
+                    Read more{" "}
+                  </button>
+                  <p>{">"}</p>
                 </div>
               </div>
             </div>
@@ -439,10 +460,15 @@ function Home() {
                     <img src="../images/Home/calendar-week.png" alt="" />
                     <p>June 13, 2025</p>
                   </span>
-                  <h4 className="text-primary text-lg w-50">Strength home-Based fitness essential</h4>
+                  <h4 className="text-primary text-lg w-50">
+                    Strength home-Based fitness essential
+                  </h4>
                 </div>
                 <div className="flex text-primary-light-hover gap-1 cursor-pointer">
-                  <button className="underline cursor-pointer">Read more </button><p>{">"}</p>
+                  <button className="underline cursor-pointer">
+                    Read more{" "}
+                  </button>
+                  <p>{">"}</p>
                 </div>
               </div>
             </div>

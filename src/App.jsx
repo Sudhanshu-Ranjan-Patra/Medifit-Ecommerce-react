@@ -4,6 +4,8 @@ import Navbar from './components/Navbar'
 import MedicalStore from './components/MedicalStore'
 import Footer from './components/Footer'
 import Home from './components/Home'
+import About from './components/About'
+// import Shop from './components/Shop'
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -16,8 +18,9 @@ function App() {
     <Routes> 
       <Route path="/" element={<MedicalStore/>} />
       <Route path="/home" element={<Home />} />
+      <Route path="/about" element={<About />} />
       {/* <Route path="/shop" element={<Shop />} /> */}
-      {/* <Route path="/about" element={<About />} /> */}
+      
     </Routes>
     <Footer/>
     </>
