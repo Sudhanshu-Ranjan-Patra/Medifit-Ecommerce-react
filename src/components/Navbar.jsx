@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <>
+    <div className="navbar fixed top-0 left-0 w-full z-50">
       <div className=" flex justify-between items-center  bg-primary-light p-4 shadow-md ">
         <Link to="/" className="logo w-30 ml-10 sm:ml-20 md:ml-40 ">
           <img src="../images/logo.png" alt="Medifit Logo" className=" " />
@@ -35,7 +35,7 @@ function Navbar() {
           </Link>
         </div>
       </div>
-      <div className="nav-ops flex md:hidden pl-15 pr-15 pt-2 text-primary text-sm justify-between items-center bg-primary">
+      <div className="nav-ops flex md:hidden pl-15 pr-15 pt-2 text-primary text-sm justify-between items-center bg-none ">
         <Link to="/home" className=" cursor-pointer">
           Home
         </Link>
@@ -53,7 +53,7 @@ function Navbar() {
           Contact
         </Link>
       </div>
-    </>
+    </div>
   );
 }
 

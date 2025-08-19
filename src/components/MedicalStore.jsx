@@ -3,7 +3,7 @@ import React from "react";
 function MedicalStore() {
   return (
     <div>
-      <div className="Hero-content relative flex flex-col pb-16 md:flex-row justify-between items-center bg-primary p-8">
+      <div className="Hero-content relative flex flex-col pb-16 md:flex-row justify-between items-center bg-primary p-8 pt-15">
         <div className=" hero-left ml-20 mr-20 mb-10 gap-y-5 justify-center md:mb-0 md:ml-50 md:mr-50 lg:ml-40">
           <h1 className="text-5xl font-medium mt-10 md:mt-0 text-primary">
             Your trusted care now and always

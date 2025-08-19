@@ -3,7 +3,7 @@ import React from "react";
 function Home() {
   return (
     <div>
-      <div className="Hero-content relative flex flex-col pt-10 md:pt-0 md:flex-row justify-between items-center bg-primary ">
+      <div className="Hero-content relative flex flex-col md:pt-10 md:flex-row justify-between items-center bg-primary pt-30">
         <div className="hero-left flex flex-col gap-10 max-w-screen justify-center items-center mb-10 md:mb-0 md:ml-60 md:mr-40 lg:ml-40">
           <h1 className="text-5xl font-medium text-primary ml-5">
             From wellness to care all in one place
@@ -39,7 +39,7 @@ function Home() {
         />
       </div>
 
-      <div className="Companys grid grid-cols-3 sm:grid-cols-6 pl-10 gap-4 p-3 sm:p-4 bg-primary-dark">
+      <div className="Companies grid grid-cols-3 sm:grid-cols-6 pl-10 gap-4 p-3 sm:p-4 bg-primary-dark">
         <img className="w-1/2" src="../images/Home/Company-logo-1.png" alt="" />
         <img className="w-1/2" src="../images/Home/Company-logo-2.png" alt="" />
         <img className="w-1/2" src="../images/Home/Company-logo-3.png" alt="" />
@@ -75,7 +75,7 @@ function Home() {
             <img
               src="../images/Home/os-item-1.png"
               alt="catagory-img"
-              className="mb-5"
+              className="mb-5 hover:transform hover:scale-110 transition-transform duration-300 hover:rotate-4 hover:[text-shadow:_2px_2px_4px_rgba(0,0,0,0.3)]"
             />
             <h1 className="text-lg text-primary">Thoughtfully Made</h1>
           </div>
@@ -85,7 +85,7 @@ function Home() {
             <img
               src="../images/Home/os-item-2.png"
               alt="catagory-img"
-              className="mb-5"
+              className="mb-5 hover:transform hover:scale-110 transition-transform duration-300 hover:rotate-4 hover:[text-shadow:_2px_2px_4px_rgba(0,0,0,0.3)]"
             />
             <h1 className="text-lg text-primary">Non-Toxic Formula</h1>
           </div>
@@ -95,7 +95,7 @@ function Home() {
             <img
               src="../images/Home/os-item-3.png"
               alt="catagory-img"
-              className="mb-5"
+              className="mb-5 hover:transform hover:scale-110 transition-transform duration-300 hover:rotate-4 hover:[text-shadow:_2px_2px_4px_rgba(0,0,0,0.3)]"
             />
             <h1 className="text-lg text-primary">Organic Essentials</h1>
           </div>
@@ -105,7 +105,7 @@ function Home() {
             <img
               src="../images/Home/os-item-4.png"
               alt="catagory-img"
-              className="mb-5"
+              className="mb-5 hover:transform hover:scale-110 transition-transform duration-300 hover:rotate-4 hover:[text-shadow:_2px_2px_4px_rgba(0,0,0,0.3)]"
             />
             <h1 className="text-lg text-primary">Safe for Everyone</h1>
           </div>
@@ -240,27 +240,27 @@ function Home() {
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-5">
-          <div className="flex flex-row justify-between md:gap-10 w-50 md:w-60 md:h-35 md:justify-start items-center pl-2 md:pl-5 pt-2 pb-1 md:pb-0 md:pt-0 bg-white rounded-2xl border border-transparent hover:border-[#d2cbc4] transition-all duration-300">
+          <div className="flex flex-row justify-between md:gap-10 w-50 md:w-60 md:h-35 md:justify-start items-center pl-2 md:pl-5 pt-2 pb-1 md:pb-0 md:pt-0 bg-white rounded-2xl border border-transparent ">
             <div className="flex flex-col justify-center items-center">
               <img className="w-1/3" src="../images/Home/heart.png" alt="" />
               <p className="text-primary font-medium">Health care</p>
             </div>
             <div>
-              <img className="w-2/3" src="../images/Home/sbc-p-1.png" alt="" />
+              <img className="w-2/3 hover:transform sm:hover:scale-115 transition-transform duration-300" src="../images/Home/sbc-p-1.png" alt="" />
             </div>
           </div>
 
-          <div className="flex flex-row justify-between md:gap-10 w-50 md:w-60 md:h-35 md:justify-start items-center pl-2 md:pl-5 pt-2 pb-1 md:pb-0 md:pt-0 bg-white rounded-2xl border border-transparent hover:border-[#d2cbc4] transition-all duration-300">
+          <div className="flex flex-row justify-between md:gap-10 w-50 md:w-60 md:h-35 md:justify-start items-center pl-2 md:pl-5 pt-2 pb-1 md:pb-0 md:pt-0 bg-white rounded-2xl border border-transparent ">
             <div className="flex flex-col justify-center items-center">
               <img className="w-1/3" src="../images/Home/leaf.png" alt="" />
               <p className="text-primary font-medium">Beauty care</p>
             </div>
             <div>
-              <img className="w-2/3" src="../images/Home/sbc-p-2.png" alt="" />
+              <img className="w-2/3 hover:transform sm:hover:scale-115 transition-transform duration-300" src="../images/Home/sbc-p-2.png" alt="" />
             </div>
           </div>
 
-          <div className="flex flex-row justify-between md:gap-10 w-50 md:w-60 md:h-35 md:justify-start items-center pl-2 md:pl-5 pt-2 pb-1 md:pb-0 md:pt-0 bg-white rounded-2xl border border-transparent hover:border-[#d2cbc4] transition-all duration-300">
+          <div className="flex flex-row justify-between md:gap-10 w-50 md:w-60 md:h-35 md:justify-start items-center pl-2 md:pl-5 pt-2 pb-1 md:pb-0 md:pt-0 bg-white rounded-2xl border border-transparent ">
             <div className="flex flex-col justify-center items-center ">
               <img
                 className="w-1/2"
@@ -270,17 +270,17 @@ function Home() {
               <p className="text-primary font-medium">Fitness</p>
             </div>
             <div>
-              <img className="w-2/3" src="../images/Home/sbc-p-3.png" alt="" />
+              <img className="w-2/3 hover:transform sm:hover:scale-115 transition-transform duration-300" src="../images/Home/sbc-p-3.png" alt="" />
             </div>
           </div>
 
-          <div className="flex flex-row justify-between md:gap-10 w-50 md:w-60 md:h-35 md:justify-start items-center pl-2 md:pl-5 pt-2 pb-1 md:pb-0 md:pt-0 bg-white rounded-2xl border border-transparent hover:border-[#d2cbc4] transition-all duration-300">
+          <div className="flex flex-row justify-between md:gap-10 w-50 md:w-60 md:h-35 md:justify-start items-center pl-2 md:pl-5 pt-2 pb-1 md:pb-0 md:pt-0 bg-white rounded-2xl border border-transparent ">
             <div className="flex flex-col justify-center items-center">
               <img className="w-1/2" src="../images/Home/capsule.png" alt="" />
               <p className="text-primary font-medium">Medicine</p>
             </div>
             <div>
-              <img className="w-2/3" src="../images/Home/sbc-p-4.png" alt="" />
+              <img className="w-2/3 hover:transform sm:hover:scale-115 transition-transform duration-300" src="../images/Home/sbc-p-4.png" alt="" />
             </div>
           </div>
         </div>
@@ -322,7 +322,7 @@ function Home() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 sm:gap-0 gap-5">
           <div className="flex flex-col justify-center items-start px-5 ">
             <div className="flex flex-col justify-center items-start p-5 bg-white rounded-xl m-3">
               <img
@@ -335,11 +335,11 @@ function Home() {
                 lifesaver for vitality and wellness!
               </p>
             </div>
-            <div className="flex flex-row gap-5 justify-center items-center pl-2 pt-3">
+            <div className="flex flex-row gap-5 justify-center items-center pl-4 sm:pt-3">
               <img
                 src="../images/Home/CR-client-1.png"
                 alt="client-review-1"
-                className="w-1/4 sm:w-1/3"
+                className="w-1/4 sm:w-1/4"
               />
               <h3 className="text-sm font-medium text-start text-primary mt-2">
                 Olivia Garcia
@@ -359,11 +359,11 @@ function Home() {
                 Highly recommend for health and stamina!
               </p>
             </div>
-            <div className="flex flex-row gap-5 justify-center items-center pl-2 pt-3">
+            <div className="flex flex-row gap-5 justify-center items-center pl-4 sm:pt-3">
               <img
                 src="../images/Home/CR-client-2.png"
                 alt="client-review-1"
-                className="w-1/4 sm:w-1/3"
+                className="w-1/4 sm:w-1/4"
               />
               <h3 className="text-sm font-medium text-start text-primary mt-2">
                 Sophia Brown
@@ -383,15 +383,68 @@ function Home() {
                 on track. Perfect for natural support!{" "}
               </p>
             </div>
-            <div className="flex flex-row gap-5 justify-center items-center pl-2 pt-3">
+            <div className="flex flex-row gap-5 justify-center items-center pl-4 sm:pt-3">
               <img
                 src="../images/Home/CR-client-3.png"
                 alt="client-review-1"
-                className="w-1/4 sm:w-1/3"
+                className="w-1/4 sm:w-1/4"
               />
               <h3 className="text-sm font-medium text-start text-primary mt-2">
                 Ethan Harris
               </h3>
+            </div>
+          </div>
+        </div>
+
+        <div className="Healthcare-insights flex flex-col justify-center mt-5">
+          <div>
+            <h2 className="text-3xl font-medium text-primary text-start ml-5 mt-5 sm:mt-10 mb-10">
+              Healthcare Insights
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
+            <div className="flex flex-row gap-5 justify-center items-start px-5">
+              <div>
+                <img
+                  className="w-fit rounded-lg"
+                  src="../images/Home/HI-img-1.png"
+                  alt="healthcare-insights-1"
+                />
+              </div>
+              <div className="flex flex-col justify-between items-start gap-25 sm:gap-50">
+                <div className="flex flex-col gap-5 sm:gap-10">
+                  <span className="flex flex-row text-sm text-primary-light-thin gap-1 items-center">
+                    <img src="../images/Home/calendar-week.png" alt="" />
+                    <p>July 25, 2025</p>
+                  </span>
+                  <h4 className="text-primary text-lg w-50">Living well with chronic conditions</h4>
+                </div>
+                <div className="flex text-primary-light-hover gap-1 cursor-pointer">
+                  <button className="underline cursor-pointer">Read more </button><p>{">"}</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-row gap-5 justify-center items-start px-5">
+              <div>
+                <img
+                  className="w-fit rounded-lg"
+                  src="../images/Home/HI-img-2.png"
+                  alt="healthcare-insights-1"
+                />
+              </div>
+              <div className="flex flex-col justify-between items-start gap-25 sm:gap-50">
+                <div className="flex flex-col gap-5 sm:gap-10">
+                  <span className="flex flex-row text-sm text-primary-light-thin gap-1 items-center">
+                    <img src="../images/Home/calendar-week.png" alt="" />
+                    <p>June 13, 2025</p>
+                  </span>
+                  <h4 className="text-primary text-lg w-50">Strength home-Based fitness essential</h4>
+                </div>
+                <div className="flex text-primary-light-hover gap-1 cursor-pointer">
+                  <button className="underline cursor-pointer">Read more </button><p>{">"}</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
