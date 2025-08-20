@@ -418,7 +418,7 @@ function Home() {
               Healthcare Insights
             </h2>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div className="flex flex-row gap-5 justify-center items-start px-5">
               <div>
                 <img
