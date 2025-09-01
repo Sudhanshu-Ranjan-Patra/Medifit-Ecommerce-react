@@ -29,21 +29,21 @@ function About() {
           </div>
 
           <div className="grid grid-cols-4 gap-40 mt-15 mb-30 items-center text-center justify-center">
-            <div className="flex flex-col">
-              <img src="../images/About/About-icon-1.png" alt="" className="w-fit" />
-              <p>Free Shipping</p>
+            <div className="flex flex-col gap-5 justify-center items-center">
+              <img className="w-1/4" src="../images/About/About-icon-1.png" alt="" />
+              <p className="text-primary font-medium">Free Shipping</p>
             </div>
-            <div className="flex flex-col">
-              <img src="../images/About/About-icon-2.png" alt="" className="w-fit"/>
-              <p>Free Shipping</p>
+            <div className="flex flex-col gap-5 justify-center items-center">
+              <img className="w-1/4" src="../images/About/About-icon-2.png" alt="" />
+              <p className="text-primary font-medium">Online Support</p>
             </div>
-            <div className="flex flex-col">
-              <img src="../images/About/About-icon-3.png" alt="" className="w-fit"/>
-              <p>Free Shipping</p>
+            <div className="flex flex-col gap-5 justify-center items-center">
+              <img className="w-1/4" src="../images/About/About-icon-3.png" alt="" />
+              <p className="text-primary font-medium">Fexible payment</p>
             </div>
-            <div className="flex flex-col">
-              <img src="../images/About/About-icon-4.png" alt="" className="w-fit"/>
-              <p>Free Shipping</p>
+            <div className="flex flex-col gap-5 justify-center items-center">
+              <img className="w-1/4" src="../images/About/About-icon-4.png" alt="" />
+              <p className="text-primary font-medium">Easy refund</p>
             </div>
           </div>
         </div>
