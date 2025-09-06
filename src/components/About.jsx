@@ -107,7 +107,6 @@ function About() {
         </div>
 
         <div className="Hero-content relative flex flex-col md:pt-10 justify-center items-center pt-30 mx-45">  
-          
         </div>
       </div>
     </div>
