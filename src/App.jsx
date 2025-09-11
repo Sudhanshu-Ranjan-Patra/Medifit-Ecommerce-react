@@ -10,7 +10,6 @@ import { Routes, Route } from "react-router-dom";
 
 function App() {
   const [count, setCount] = useState(0);
-
   return (
     <>
       <Navbar />
@@ -18,7 +17,7 @@ function App() {
         <Route path="/" element={<MedicalStore />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
-        {/* <Route path="/shop" element={<Shop />} /> */}
+        <Route path="/shop" element={<Shop />} />
       </Routes>
       <Footer />
     </>
