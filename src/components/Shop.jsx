@@ -40,8 +40,8 @@ const Shop = () => (
     <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
       {/* Product Images and Price */}
       <div className="col-span-1 flex flex-col items-center md:items-start">
-        <img src={PRODUCT_IMAGE} alt="B12 Medicine" className="rounded-xl w-60 h-44 object-cover"/>
-        <img src={CAPSULES_IMAGE} alt="Capsules" className="rounded-xl w-60 h-44 object-cover mt-6"/>
+        <img src="../images/shop-home-1.png" alt="B12 Medicine" className="rounded-xl w-60 h-44 object-cover"/>
+        <img src="../images/shop-home-2.png" alt="Capsules" className="rounded-xl w-60 h-44 object-cover mt-6"/>
       </div>
       <div className="col-span-2 flex flex-col">
         <h1 className="text-3xl font-semibold text-[#48341d] mb-2">B12 Medicine</h1>
