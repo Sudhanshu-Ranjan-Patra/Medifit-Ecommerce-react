@@ -133,7 +133,7 @@ const Shop = () => (
         </p>
         <button className="bg-[#48341d] text-white px-6 py-2 rounded shadow hover:bg-[#624d2f]">Get started</button>
       </div>
-      {/* Add preview product images here as grid */}
+    
       <div className="grid grid-cols-2 gap-3">
         <img src="/assets/capsule-bottle.jpg" className="rounded w-full h-24 object-cover" alt="" />
         <img src="/assets/pill-strip.jpg" className="rounded w-full h-24 object-cover" alt="" />
