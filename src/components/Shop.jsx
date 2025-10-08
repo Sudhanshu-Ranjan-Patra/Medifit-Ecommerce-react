@@ -1,6 +1,4 @@
 import React from "react";
-
-// Replace these with actual image imports/links from your Figma exports
 const PRODUCT_IMAGE = "/assets/b12-medicine.jpg";
 const CAPSULES_IMAGE = "/assets/b12-capsules.jpg";
 const PRODUCT_LIST = [
@@ -89,6 +87,7 @@ const Shop = () => (
             <li>Aids in maintaining nerve health.</li>
           </ul>
         </div>
+
         {/* Features */}
         <div className="flex gap-10 mt-8 mb-6">
           <div className="flex flex-col items-center">
@@ -108,6 +107,7 @@ const Shop = () => (
             <span className="text-[15px] text-[#48341d]">Flexible payment</span>
           </div>
         </div>
+
         {/* Customer Reviews */}
         <h2 className="mt-5 mb-2 text-xl font-semibold text-[#48341d]">
           Customers review
@@ -171,6 +171,7 @@ const Shop = () => (
         ))}
       </div>
     </div>
+
     {/* Community Banner */}
     <div className="max-w-6xl mx-auto mt-12 grid md:grid-cols-2 gap-6 items-center bg-white p-7 rounded-2xl shadow">
       <div>
