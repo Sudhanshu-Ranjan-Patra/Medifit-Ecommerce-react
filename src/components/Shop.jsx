@@ -33,7 +33,7 @@ const PRODUCT_LIST = [
 ];
 
 const Shop = () => (
-  <div className="bg-[#f5f4ef] min-h-screen px-4 py-8 font-sans">
+  <div className="bg-[#f5f4ef] min-h-screen px-4 py-8 font-sans pt-20">
     <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
       {/* Product Images and Price */}
       <div className="col-span-1 flex flex-col items-center md:items-start">
@@ -109,32 +109,38 @@ const Shop = () => (
         </div>
 
         {/* Customer Reviews */}
-        <h2 className="mt-5 mb-2 text-xl font-semibold text-[#48341d]">
-          Customers review
-        </h2>
-        <div className="grid md:grid-cols-3 gap-4 mb-8">
-          <div className="bg-white rounded-xl p-4 text-sm text-[#48341d] shadow">
-            <p>
-              B12 Medicine keeps me energized and focused all day. A true
-              lifesaver for vitality and wellness!
-            </p>
-            <span className="block mt-3 font-medium text-sm">
-              Olivia Garcia
-            </span>
-          </div>
-          <div className="bg-white rounded-xl p-4 text-sm text-[#48341d] shadow">
-            <p>
-              I’ve regained my energy and feel amazing thanks to B12 Medicine.
-              Highly recommend for health and stamina!
-            </p>
-            <span className="block mt-3 font-medium text-sm">Sophia Brown</span>
-          </div>
-          <div className="bg-white rounded-xl p-4 text-sm text-[#48341d] shadow">
-            <p>
-              As a vegetarian, B12 Medicine keeps my energy up and my health on
-              track. Perfect for natural support!
-            </p>
-            <span className="block mt-3 font-medium text-sm">Ethan Harris</span>
+        <div>
+          <h2 className="mt-5 mb-2 text-xl font-semibold text-[#48341d]">
+            Customers review
+          </h2>
+          <div className="grid md:grid-cols-3 gap-4 mb-8">
+            <div className="bg-white rounded-xl p-4 text-sm text-[#48341d] shadow">
+              <p>
+                B12 Medicine keeps me energized and focused all day. A true
+                lifesaver for vitality and wellness!
+              </p>
+              <span className="block mt-3 font-medium text-sm">
+                Olivia Garcia
+              </span>
+            </div>
+            <div className="bg-white rounded-xl p-4 text-sm text-[#48341d] shadow">
+              <p>
+                I’ve regained my energy and feel amazing thanks to B12 Medicine.
+                Highly recommend for health and stamina!
+              </p>
+              <span className="block mt-3 font-medium text-sm">
+                Sophia Brown
+              </span>
+            </div>
+            <div className="bg-white rounded-xl p-4 text-sm text-[#48341d] shadow">
+              <p>
+                As a vegetarian, B12 Medicine keeps my energy up and my health
+                on track. Perfect for natural support!
+              </p>
+              <span className="block mt-3 font-medium text-sm">
+                Ethan Harris
+              </span>
+            </div>
           </div>
         </div>
       </div>
