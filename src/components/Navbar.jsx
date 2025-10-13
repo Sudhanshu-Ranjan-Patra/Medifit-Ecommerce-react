@@ -35,6 +35,7 @@ function Navbar() {
           </Link>
         </div>
       </div>
+      
       <div className="nav-ops flex md:hidden pl-15 pr-15 pt-2 text-primary text-sm justify-between items-center bg-none ">
         <Link to="/home" className=" cursor-pointer">
           Home
