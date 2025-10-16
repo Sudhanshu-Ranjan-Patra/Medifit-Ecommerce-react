@@ -107,7 +107,6 @@ function MedicalStore() {
         </div>
 
         {/* // Project section */}
-
         <div className="products flex flex-col flex-warp md:flex-row max-w-fit justify-center items-center gap-4 mt-10">
           <div className="product-card flex flex-row justify-between items-center bg-white w-100 h-60 rounded-lg p-4">
             <div className=" product-left flex flex-col gap-8 justify-between items-start">
@@ -132,7 +131,6 @@ function MedicalStore() {
               />
             </div>
           </div>
-
           <div className="product-card flex flex-row justify-between items-center bg-white w-100 h-60 rounded-lg p-4">
             <div className=" product-left flex flex-col gap-8 justify-between items-start">
               <button className="brand-btn ">Top deals</button>
@@ -156,7 +154,6 @@ function MedicalStore() {
               />
             </div>
           </div>
-
           <div className="product-card flex flex-row justify-between items-center bg-white w-100 h-60 rounded-lg p-4">
             <div className=" product-left flex flex-col gap-8 justify-between items-start">
               <button className="brand-btn ">Face mask</button>
@@ -283,7 +280,6 @@ function MedicalStore() {
             </div>
           </div>
         </div>
-
         <div className="flex justify-center items-center sm:gap-6 md:gap-10 bg-white mb-10 p-4 mt-10 md:mt-15 rounded-lg">
           <div className="md:flex md:gap-3 flex-col md:flex-row justify-center items-center">
             <div className="relative w-fit ">
